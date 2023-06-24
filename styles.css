@@ -1,0 +1,74 @@
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(240, 237, 237);
+    height: 900px;
+    width: 800px;
+    background-color: rgb(1, 1, 48);
+
+}
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 800px;
+    width: 600px;
+    background-color: rgb(2, 2, 51);
+    color: whitesmoke;
+    border-radius: 20px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.uppersection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px ;
+    height: 400px;
+    width: 600px;
+    border-radius: 20px;
+}
+.lowersection{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border:2px ;
+    height: 400px;
+    width: 600px;
+}
+
+ .uppersection > img{
+    border:1px solid black ;
+    height: 350px;
+    width: 550px;
+    border-radius: 20px;
+}
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width:500px ;
+    height: 0px;
+}
+.lowersection > img{
+    border: 5px solid black;
+    height: 40px;
+    width: 40px;
+}
+.design > h4, p { 
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.final{
+    display: flex;
+    flex-direction: row;
+}
